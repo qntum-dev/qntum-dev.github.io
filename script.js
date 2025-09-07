@@ -57,12 +57,7 @@ window.addEventListener('scroll', () => {
         navbar.style.background = 'var(--bg-primary)';
     }
     
-    // Hide/show navbar on scroll
-    if (currentScroll > lastScroll && currentScroll > 500) {
-        navbar.style.transform = 'translateY(-100%)';
-    } else {
-        navbar.style.transform = 'translateY(0)';
-    }
+    // Keep navbar always visible (removed auto-hide behavior)
     
     lastScroll = currentScroll;
 });
