@@ -180,7 +180,7 @@ window.addEventListener('scroll', debouncedScroll, { passive: true });
 const preloadLink = document.createElement('link');
 preloadLink.rel = 'preload';
 preloadLink.as = 'image';
-preloadLink.href = 'https://res.cloudinary.com/qntum/image/upload/v1757179961/my_avatar_blink_n_smile_keu7g5.gif';
+preloadLink.href = '/avatargif/my_avatar_blink_n_smile_keu7g5.gif';
 document.head.appendChild(preloadLink);
 
 // Console Easter Egg
