@@ -1,5 +1,5 @@
 # Robots.txt for Pritam Mondal Portfolio
-# https://pritammondal.github.io/
+# https://qntum-dev.github.io/
 
 User-agent: *
 Allow: /
@@ -8,7 +8,7 @@ Disallow: /scripts/
 Disallow: *.pdf
 
 # Sitemap location
-Sitemap: https://pritammondal.github.io/sitemap.xml
+Sitemap: https://qntum-dev.github.io/sitemap.xml
 
 # Crawl-delay for respectful crawling
 Crawl-delay: 1
